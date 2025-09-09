@@ -1,0 +1,202 @@
+{
+    "DocumentoElectronico": {
+        "Encabezado": {
+            "IdentificacionDocumento": {
+                "TipoDocumento": "01",
+                "NumeroDocumento": "6746",
+                "TipoProveedor": null,
+                "TipoTransaccion": null,
+                "NumeroPlanillaImportacion": null,
+                "NumeroExpedienteImportacion": null,
+                "SerieFacturaAfectada": null,
+                "NumeroFacturaAfectada": null,
+                "FechaFacturaAfectada": null,
+                "MontoFacturaAfectada": null,
+                "ComentarioFacturaAfectada": null,
+                "RegimenEspTributacion": null,
+                "FechaEmision": "09/09/2025",
+                "FechaVencimiento": "09/09/2025",
+                "HoraEmision": "10:00:00 am",
+                "Anulado": false,
+                "TipoDePago": "Inmediato",
+                "Serie": "",
+                "Sucursal": "002",
+                "TipoDeVenta": "Interna",
+                "Moneda": "BSD",
+                "TransaccionId": "FA6746",
+                "UrlPdf": null
+            },
+            "Vendedor": null,
+            "Comprador": {
+                "TipoIdentificacion": "V",
+                "NumeroIdentificacion": "14965208",
+                "RazonSocial": "CARLOS ALBERTO SOLANO",
+                "Direccion": "ALI PRIMERA TORRE 15F APTO 1-2 BARQUISIMETO EDO. LARA",
+                "Ubigeo": null,
+                "Pais": "VE",
+                "Notificar": null,
+                "Telefono": [
+                    "4245665757"
+                ],
+                "Correo": [
+                    "carlossolano091979@gmail.com"
+                ],
+                "OtrosEnvios": null
+            },
+            "SujetoRetenido": null,
+            "Tercero": null,
+            "Totales": {
+                "NroItems": "1",
+                "MontoGravadoTotal": "4494.49",
+                "MontoExentoTotal": "0.00",
+                "MontoPercibidoTotal": "0.00",
+                "SubtotalAntesDescuento": "3874.56",
+                "TotalDescuento": null,
+                "TotalRecargos": null,
+                "Subtotal": "3874.56",
+                "TotalIVA": "619.93",
+                "MontoTotalConIVA": "4494.49",
+                "TotalAPagar": "4494.49",
+                "MontoEnLetras": "cuatro mil cuatrocientos noventa y cuatro punto cuatro nueve",
+                "ListaRecargo": null,
+                "ListaDescBonificacion": null,
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "3874.56",
+                        "ValorTotalImp": "619.93"
+                    }
+                ],
+                "FormasPago": [
+                    {
+                        "Descripcion": "Punto de Venta BRMN",
+                        "Fecha": "05/09/2025",
+                        "Forma": "01",
+                        "Monto": "4494.49",
+                        "Moneda": "BSD",
+                        "TipoCambio": "0.00"
+                    }
+                ],
+                "TotalIGTF": null,
+                "TotalIGTF_VES": null
+            },
+            "TotalesRetencion": null,
+            "TotalesOtraMoneda": {
+                "Moneda": "USD",
+                "TipoCambio": "154.9825",
+                "MontoGravadoTotal": "25.0",
+                "MontoPercibidoTotal": "0.00",
+                "MontoExentoTotal": "0.00",
+                "Subtotal": "25.0",
+                "TotalAPagar": "29.0",
+                "TotalIVA": "4.0",
+                "MontoTotalConIVA": "29.0",
+                "MontoEnLetras": "veintinueve",
+                "SubtotalAntesDescuento": "25.0",
+                "TotalDescuento": null,
+                "TotalRecargos": null,
+                "ListaRecargo": null,
+                "ListaDescBonificacion": null,
+                "ImpuestosSubtotal": [
+                    {
+                        "CodigoTotalImp": "G",
+                        "AlicuotaImp": "16.00",
+                        "BaseImponibleImp": "25.0",
+                        "ValorTotalImp": "4.0"
+                    }
+                ]
+            },
+            "Orden": null
+        },
+        "DetallesItems": [
+            {
+                "NumeroLinea": "1",
+                "CodigoCIIU": null,
+                "CodigoPLU": "005",
+                "IndicadorBienoServicio": "2",
+                "Descripcion": "PLAN OPTIMO 300 MBPS",
+                "Cantidad": "1",
+                "UnidadMedida": "4L",
+                "PrecioUnitario": "3874.56",
+                "PrecioUnitarioDescuento": null,
+                "MontoBonificacion": null,
+                "DescripcionBonificacion": null,
+                "DescuentoMonto": "0.00",
+                "RecargoMonto": "0",
+                "PrecioItem": "3874.56",
+                "PrecioAntesDescuento": "3874.56",
+                "CodigoImpuesto": "G",
+                "TasaIVA": "16",
+                "ValorIVA": "619.93",
+                "ValorTotalItem": "3874.56",
+                "InfoAdicionalItem": [],
+                "ListaItemOTI": null
+            }
+        ],
+        "DetallesRetencion": null,
+        "Viajes": null,
+        "InfoAdicional": [
+            {
+                "Campo": "Contrato",
+                "Valor": "2802"
+            },
+            {
+                "Campo": "Mes1",
+                "Valor": "JUL"
+            },
+            {
+                "Campo": "Mes2",
+                "Valor": "AGO"
+            },
+            {
+                "Campo": "Mes3",
+                "Valor": "SEP"
+            },
+            {
+                "Campo": "Mes4",
+                "Valor": "OCT"
+            },
+            {
+                "Campo": "Mes5",
+                "Valor": "NOV"
+            },
+            {
+                "Campo": "Mes6",
+                "Valor": "DIC"
+            },
+            {
+                "Campo": "Cmes1",
+                "Valor": "1399"
+            },
+            {
+                "Campo": "Cmes2",
+                "Valor": "1343"
+            },
+            {
+                "Campo": "Cmes3",
+                "Valor": "0"
+            },
+            {
+                "Campo": "Cmes4",
+                "Valor": "0"
+            },
+            {
+                "Campo": "Cmes5",
+                "Valor": "0"
+            },
+            {
+                "Campo": "Cmes6",
+                "Valor": "0"
+            },
+            {
+                "Campo": "Promedio",
+                "Valor": "1371"
+            }
+        ],
+        "GuiaDespacho": null,
+        "Transporte": null,
+        "EsLote": true,
+        "EsMinimo": null
+    }
+}
