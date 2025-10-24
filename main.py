@@ -86,7 +86,8 @@ def transformar_fila(row):
     # 🔹 Generar navegación aleatoria
     navegacion1 = random.randint(1000, 6000)
     navegacion2 = random.randint(1000, 6000)
-    promedio = round((navegacion1 + navegacion2) / 2, 0)
+    navegacion3 = random.randint(1000, 6000)
+    promedio = round((navegacion1 + navegacion2 + navegacion3) / 3, 0)
 
     return {
          "DocumentoElectronico": {
@@ -232,7 +233,7 @@ def transformar_fila(row):
                 {"Campo": "Mes6", "Valor": "DIC"},
                 {"Campo": "Cmes1", "Valor": str(navegacion1)},
                 {"Campo": "Cmes2", "Valor": str(navegacion2)},
-                {"Campo": "Cmes3", "Valor": "0"},
+                {"Campo": "Cmes3", "Valor": str(navegacion3)},
                 {"Campo": "Cmes4", "Valor": "0"},
                 {"Campo": "Cmes5", "Valor": "0"},
                 {"Campo": "Cmes6", "Valor": "0"},
