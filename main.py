@@ -87,7 +87,9 @@ def transformar_fila(row):
     navegacion1 = random.randint(1000, 6000)
     navegacion2 = random.randint(1000, 6000)
     navegacion3 = random.randint(1000, 6000)
-    promedio = round((navegacion1 + navegacion2 + navegacion3) / 3, 0)
+    navegacion4 = random.randint(1000, 6000)
+    navegacion5 = random.randint(1000, 6000)
+    promedio = round((navegacion1 + navegacion2 + navegacion3 + navegacion4 + navegacion5 ) / 5, 0)
 
     return {
          "DocumentoElectronico": {
@@ -234,8 +236,8 @@ def transformar_fila(row):
                 {"Campo": "Cmes1", "Valor": str(navegacion1)},
                 {"Campo": "Cmes2", "Valor": str(navegacion2)},
                 {"Campo": "Cmes3", "Valor": str(navegacion3)},
-                {"Campo": "Cmes4", "Valor": "0"},
-                {"Campo": "Cmes5", "Valor": "0"},
+                {"Campo": "Cmes4", "Valor": str(navegacion4)},
+                {"Campo": "Cmes5", "Valor": str(navegacion5)},
                 {"Campo": "Cmes6", "Valor": "0"},
                 {"Campo": "Promedio", "Valor": str(int(promedio))},
             ],
@@ -274,3 +276,4 @@ async def process_excel(file: UploadFile = File(...)):
         media_type="application/zip",
         headers={"Content-Disposition": f"attachment; filename=FAC-{hoy}.zip"}
     )
+
